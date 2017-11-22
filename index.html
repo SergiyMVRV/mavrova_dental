@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Стоматолог Маврова Ольга Константиновна Харьков</title>
+		<meta name="description" content="Стоматология Харьков, профессиональный подход к лечению заболеваний полости рта с применением качественных и современных материалов">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/bootstrap-styles.css">
+		<script src="js/jquery-1.12.4.js"></script>
+		<script src="js/bootstrap-min.js"></script>
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-default navbar-fixed-top">
+			  <div class="container-fluid">
+				<div class="navbar-header">
+				  <button id="drop-button" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span> 
+				  </button>
+				  <a class="navbar-brand" href="index.html">Ольга Константиновна Маврова</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+				  <ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="index.html#contacts" onclick="document.getElementById('drop-button').click()">Контакты</a></li>
+					<li class="dropdown">
+					  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Услуги
+						<span class="caret"></span>
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a href="services/karies.html">Лечение Кариеса</a></li>
+						<li><a href="services/endodontiya.html">Эндодонтия</a></li>
+						<li><a href="services/restaration.html">Реставрация Зуба</a></li>
+					  </ul>
+					</li>
+					<li><a href="blog.html">Блог</a></li>
+				  </ul>
+				</div>
+			  </div>
+			</nav>
+		</header>
+		<div class="section-video">
+			<video playsinline autoplay muted loop>
+			<source src="video/headerVideo.mp4" type="video/mp4">
+			</video>
+			<div id="text-video">
+				<h1>Стоматолог Харьков</h1>
+				<p>Ольга Константиновна - опытный внимательный врач-стоматолог, она находит деликатный подход как к детям, так и к взрослым, которые опасаются визитов к стоматологу.</p>
+				<p>Доверив лечение зубов и красоту вашей улыбки Ольге Константиновне, Вы получите качественный результат - красивую улыбку и здоровые зубы.</p>
+				<a href="#contacts">Контакты</a>
+			</div>
+		</div>
+		<div class="container-fluid text-center services">
+		  <h2>Ваш семейный стоматолог</h2>
+		  <h4>Прием всех возрастных групп</h4>
+		  <br>
+		  <div class="row">
+			<div class="col-sm-4">
+			  <span class="glyphicon"><img src="images/icon-adults.png" alt="стоматологический прием взрослых"></span>
+			  <h4>Взрослые</h4>
+			  <p>Комплексные программы лечения заболеваний зубов и полости рта. Восстановление и улучшение эстетики ваших зубов и здоровой улыбки</p>
+			</div>
+			<div class="col-sm-4">
+			  <span class="glyphicon "><img src="images/icon-children.png" alt="стоматологический прием детей"></span>
+			  <h4>Дети</h4>
+			  <p>Многие дети запоминают свой первый визит к стоматологу на всю жизнь. Пусть это событие пройдет в познавательной и доверительной обстановке</p>
+			</div>
+			<div class="col-sm-4">
+			  <span class="glyphicon"><img src="images/icon-pregnat.png" alt="стоматологический прием беременных"></span>
+			  <h4>Беременные</h4>
+			  <p>Лечении заболеваний ротовой полости у беременных с учетом особенностей состояния организма пациента, а так же эмоциональной составляющей</p>
+			</div>
+			</div>
+		</div>
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox">
+			<div class="item active">
+			  <img src="images/main1.jpg" alt="New York">
+			  <div class="carousel-caption">
+				<h3>Прием детей</h3>
+				<p>Деликатный подкод к врачебному приему детей</p>
+			  </div> 
+			</div>
+
+			<div class="item">
+			  <img src="images/main2.jpg" alt="Chicago">
+			  <div class="carousel-caption">
+				<h3>Реставрация зубов</h3>
+				<p>Художественная реставрация</p>
+			  </div> 
+			</div>
+
+			<div class="item">
+			  <img src="images/main3.jpg" alt="Los Angeles">
+			  <div class="carousel-caption">
+				<h3>Комплексное лечение</h3>
+				<p>Выявление и устранение причин возникновения заболеваний</p>
+			  </div> 
+			</div>
+		  </div>
+		</div>
+		<div id="contacts" class="container-fluid text-center contacts">
+		  <h2>Контакты</h2>
+		  <h4>Прием в клинике "Каумари"</h4>
+		  <br>
+		  <div class="row">
+			<div class="col-sm-6">
+			  <span class="glyphicon"><img src="images/icon-mobile.png" alt=""></span>
+			  <h4>Телефон</h4>
+			  <p><a href="tel:+380662436041">+38 (066) 243 6041</a></p>
+			</div>
+			<div class="col-sm-6">
+			  <span class="glyphicon"><img src="images/icon-location.png" alt=""></span>
+			  <h4>Адрес клиники "Каумари"</h4>
+			  <p>Харьков, ул. Героев Труда 25/71</p>
+			</div>
+			</div>
+		</div>
+		<div class="map">
+			<iframe  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10253.760488352136!2d36.3469107!3d50.0218483!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1cad3555009c6179!2z0JrQsNGD0LzQsNGA0Lgg0KHRgtC-0LzQsNGC0L7Qu9C-0LPQuNGP!5e0!3m2!1sru!2sua!4v1498232737457"  allowfullscreen></iframe>
+		</div>
+		<footer class="container-fluid bg-4 text-center">
+  		  <p>All Rights Reserved: &copy;mavrovadental.com.ua </p> 
+		  <p>Сайт разработан: Sergiy Mavrov</p>
+                  <p>Про удаление родинок в Харькове можно узнать &nbsp;<a href="http://dobrinka.com.ua/ydalenie/">здесь</a> </p>
+		</footer>
+          	<script src="js/all.js"></script>
+
+	</body>
+</html>
